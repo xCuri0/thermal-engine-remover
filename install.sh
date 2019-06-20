@@ -123,7 +123,7 @@ REPLACE="
 
 print_modname() {
   ui_print "*******************************"
-  ui_print "     Magisk Module Template    "
+  ui_print "     Thermal Engine remover    "
   ui_print "*******************************"
 }
 
@@ -134,6 +134,7 @@ on_install() {
   # Extend/change the logic to whatever you want
   ui_print "- Extracting module files"
   unzip -o "$ZIPFILE" 'system/*' -d $MODPATH >&2
+  unzip -o "$ZIPFILE" 'vendor/*' -d $MODPATH >&2
 }
 
 # Only some special files require specific permissions

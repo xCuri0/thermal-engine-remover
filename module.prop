@@ -1,6 +1,6 @@
 id=template
-name=Template Module
+name=Thermal Engine remover
 version=v1
 versionCode=1
-author=topjohnwu
-description=A short description
+author=Kuri0
+description=Removes thermal engine to disable throttling
